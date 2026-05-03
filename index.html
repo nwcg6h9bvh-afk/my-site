@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html lang="et">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sassimaja OÜ | Hubane rannarestoran Saaremaal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="logo">Sassimaja OÜ</a>
+        <button class="nav-toggle" aria-label="Ava navigeerimine">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav">
+          <a href="#home">Avaleht</a>
+          <a href="#about">Meist</a>
+          <a href="#menu">Menüü</a>
+          <a href="#gallery">Galerii</a>
+          <a href="#contact">Kontakt</a>
+        </nav>
+        <button class="btn btn-primary modal-toggle">Broneeri laud</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Hubane rannarestoran</p>
+          <h1>Sassimaja OÜ</h1>
+          <p class="hero-text">Maitsev toit Saaremaal</p>
+          <button class="btn btn-primary modal-toggle">Broneeri laud</button>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container section-grid">
+          <div class="section-intro">
+            <p class="section-label">Meist</p>
+            <h2>Saaremaa maitsete ja merelähedase atmosfääri keskus</h2>
+            <p>
+              Sassimaja OÜ on hubane rannarestoran Saaremaal, kus pakume värskeid
+              kohalikke tooraineid ja traditsioonilisi roogasid. Meie menüü
+              ühendab koduse maitse ja õdusa rannikuelamuse.
+            </p>
+          </div>
+          <div class="about-cards">
+            <article>
+              <h3>Kohalikud saak</h3>
+              <p>Kala ja mereannid otse Saaremaa rannikult, millele on lisatud
+              pehme maitse ja lõhnavad ürdid.</p>
+            </article>
+            <article>
+              <h3>Traditsiooniline koduköök</h3>
+              <p>Armastus väärt toidu valmistamiseks ja kohalike retseptide austamine.
+              Meie toidud tunnevad end nagu kodus söömise tunne.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section menu" id="menu">
+        <div class="container">
+          <p class="section-label">Menüü</p>
+          <h2>Avasta meie maitsvad eripakkumised</h2>
+
+          <div class="menu-category">
+            <h3>Kala kohalikest vetest</h3>
+            <div class="cards-grid">
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Ahjuforell" />
+                <div class="menu-info">
+                  <h4>Ahjuforell</h4>
+                  <p class="price">9.50€</p>
+                  <p>Värske kohalik saak, küpsetatud sidruni ja ürtidega.</p>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Haug koore-tillikastmega" />
+                <div class="menu-info">
+                  <h4>Haug koore-tillikastmega</h4>
+                  <p class="price">10.50€</p>
+                  <p>Kohalik haug õrnas koore-tillikastmes.</p>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1514516870928-0e4eb22b19b5?auto=format&fit=crop&w=800&q=80" alt="Angerjafilee" />
+                <div class="menu-info">
+                  <h4>Angerjafilee</h4>
+                  <p class="price">12.00€</p>
+                  <p>Traditsiooniline Saaremaa angerjas.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-category">
+            <h3>Supid</h3>
+            <div class="cards-grid">
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1512058564366-c9e2d1a1b2a0?auto=format&fit=crop&w=800&q=80" alt="Sooljanka" />
+                <div class="menu-info">
+                  <h4>Sooljanka</h4>
+                  <p class="price">5.50€</p>
+                  <p>Rikkalik lihasupp.</p>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1512058564366-c9e2d1a1b2a0?auto=format&fit=crop&w=800&q=80" alt="Päeva supp" />
+                <div class="menu-info">
+                  <h4>Päeva supp</h4>
+                  <p class="price">4.50€</p>
+                  <p>Kodune päevapakkumine.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-category">
+            <h3>Liharoad</h3>
+            <div class="cards-grid">
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1543353071-087092ec393a?auto=format&fit=crop&w=800&q=80" alt="Šnitsel" />
+                <div class="menu-info">
+                  <h4>Šnitsel</h4>
+                  <p class="price">11.00€</p>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80" alt="Kanafileetükk" />
+                <div class="menu-info">
+                  <h4>Kanafileetükk</h4>
+                  <p class="price">10.00€</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-category">
+            <h3>Pannkoogid</h3>
+            <div class="cards-grid">
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1512058564366-c9e2d1a1b2a0?auto=format&fit=crop&w=800&q=80" alt="Soolased pannkoogid" />
+                <div class="menu-info">
+                  <h4>Soolased pannkoogid singi ja juustuga</h4>
+                  <p class="price">5.50€</p>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1505253216543-0c22bc5f65c5?auto=format&fit=crop&w=800&q=80" alt="Magusad moosipannkoogid" />
+                <div class="menu-info">
+                  <h4>Magusad moosipannkoogid</h4>
+                  <p class="price">4.50€</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-category">
+            <h3>Pitsa ja pasta</h3>
+            <div class="cards-grid">
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1604908177522-04a59d8e59a2?auto=format&fit=crop&w=800&q=80" alt="Kodupitsa" />
+                <div class="menu-info">
+                  <h4>Kodupitsa</h4>
+                  <p class="price">8.50€</p>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1515548217095-97fed1b0c7ce?auto=format&fit=crop&w=800&q=80" alt="Kanapasta" />
+                <div class="menu-info">
+                  <h4>Kanapasta</h4>
+                  <p class="price">9.00€</p>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80" alt="Seenepasta" />
+                <div class="menu-info">
+                  <h4>Seenepasta</h4>
+                  <p class="price">8.00€</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-category">
+            <h3>Magustoidud ja joogid</h3>
+            <div class="cards-grid">
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1549041637-0d7edb8c29c8?auto=format&fit=crop&w=800&q=80" alt="Juustukook" />
+                <div class="menu-info">
+                  <h4>Juustukook</h4>
+                  <p class="price">4.00€</p>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1517685352821-92cf88aee5a5?auto=format&fit=crop&w=800&q=80" alt="Värske kook" />
+                <div class="menu-info">
+                  <h4>Värske kook</h4>
+                  <p class="price">3.50€</p>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Kohv" />
+                <div class="menu-info">
+                  <h4>Kohv</h4>
+                  <p class="price">2.00€</p>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1510626176961-4b80f3c3d1d1?auto=format&fit=crop&w=800&q=80" alt="Kohalik õlu" />
+                <div class="menu-info">
+                  <h4>Kohalik õlu</h4>
+                  <p class="price">3.50€</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery" id="gallery">
+        <div class="container">
+          <p class="section-label">Galerii</p>
+          <h2>Vaata meie hubast atmosfääri</h2>
+          <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Restorani meri" />
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Toidukauss" />
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Restorani sisekujundus" />
+            <img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=900&q=80" alt="Laudade detail" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container section-grid">
+          <div class="contact-info">
+            <p class="section-label">Kontakt</p>
+            <h2>Tule külla või räägi meile oma broneeringust</h2>
+            <div class="contact-card">
+              <p><strong>Aadress</strong></p>
+              <p>Mustjala mnt 2, 94202 Leisi</p>
+            </div>
+            <div class="contact-card">
+              <p><strong>Telefon</strong></p>
+              <p>+372 457 3070</p>
+            </div>
+            <div class="contact-card">
+              <p><strong>Lahtiolek</strong></p>
+              <p>Avatud kuni 21:00</p>
+            </div>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <label for="name">Nimi</label>
+            <input type="text" id="name" name="name" placeholder="Teie nimi" required />
+
+            <label for="phone">Telefon</label>
+            <input type="tel" id="phone" name="phone" placeholder="+372 5123 4567" required />
+
+            <label for="message">Sõnum</label>
+            <textarea id="message" name="message" rows="5" placeholder="Kirjuta meile..." required></textarea>
+
+            <button type="submit" class="btn btn-secondary">Saada</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© Sassimaja OÜ</p>
+      </div>
+    </footer>
+
+    <div class="modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <button class="modal-close" aria-label="Sulge broneerimisvorm">×</button>
+        <h2>Broneeri laud</h2>
+        <p>Jäta oma andmed ja me võtame sinuga ühendust, et kinnitada broneering.</p>
+        <form action="#" method="post" class="modal-form">
+          <label for="modal-name">Nimi</label>
+          <input type="text" id="modal-name" name="modal-name" placeholder="Teie nimi" required />
+          <label for="modal-phone">Telefon</label>
+          <input type="tel" id="modal-phone" name="modal-phone" placeholder="+372 5123 4567" required />
+          <label for="modal-date">Kuupäev</label>
+          <input type="date" id="modal-date" name="modal-date" required />
+          <label for="modal-requests">Erisoovid</label>
+          <textarea id="modal-requests" name="modal-requests" rows="4" placeholder="Kirjuta meile..."></textarea>
+          <button type="submit" class="btn btn-primary">Saada broneering</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
